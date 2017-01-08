@@ -147,11 +147,12 @@
   }
 
   #bootstrap-overrides .dropdown.open .dropdown-menu {
-    max-height: 209px;
+    max-height: 247px;
     opacity: 1;
     overflow:scroll;
-    margin-bottom: 3px;
+    margin-bottom: 2px;
     position: relative;
+    z-index: 0;
   }
 
 
