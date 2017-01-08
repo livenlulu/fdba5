@@ -271,7 +271,7 @@
 
   img {
     opacity: 1;
-    vertical-align: middle;
+    vertical-align: middle;f
   }
 
   #bootstrap-overrides .leaflet-control-zoom {
@@ -705,7 +705,7 @@ font-size: 15px;
 
 @media screen and (max-width: 500px) {
 #bootstrap-overrides #flogo3 {
-  height: 48px;
+  height: 52px;
 }
 
 #bootstrap-overrides h2 {
