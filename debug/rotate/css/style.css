@@ -174,49 +174,57 @@
   }
  
   #bootstrap-overrides h2 {
-    font-size: 17px;
-    font-family: proxima-nova;
-    font-weight: 600;
-    margin-top: 3px;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 900;
+    margin-top: 7px;
     margin-bottom: 3px;
-    letter-spacing: .98px;
+    letter-spacing: 1.5px;
+    margin-left: 130px;
+    color: #444;
   }
 
   #bootstrap-overrides .jumbotron {
-    padding-top: 5px;
+    padding-top: 8px;
     padding-bottom: 5px;
     width: 100%;
-    margin-bottom: 2px;
-    color: #000;
+    margin-bottom: 1px;
+    color: #232323;
     background-color: #eee; 
+   /* background-color: #f1f0f0; */
     min-width: 342px;
     border-radius: 2px;
     border: 1px solid #ddd;
+ 
   }
 
-  #bootstrap-overrides #flogo2 {
-    vertical-align: middle;
-    float: right;
-    min-width: 0px;
+  #bootstrap-overrides #flogo3 {
+  display: inline;
+  float: left;
+  min-width: 0px;
     min-height: 0px;
-    height: 88px;
+    height: 62px;
     display: inline;
     top: 6px;
-    right: 2%;
+    left: 18px;
     position: absolute;
     border: 1px solid #ddd;
     border-radius: 6px;
+    box-shadow: 1px 1px 5px #888888;
   }
 
 
   #bootstrap-overrides .panel h3 {
     font-size: 13px;
     font-family: Maven Pro;
+    margin-left: 0px;
+    color: #fff;
   }
 
   #bootstrap-overrides h3.modal-title {
     font-size: 17px;
     font-family: Maven Pro;
+    margin-left: 0px;
   }
 
   #bootstrap-overrides #closeb {
@@ -235,11 +243,14 @@
   }
 
   #bootstrap-overrides h3 {
-    font-size: 14px;
-    font-family: Oswald;
+    font-size: 13px;
+    font-family: Raleway;
     text-align:left;
     letter-spacing: 1px;
-    font-weight: 300;
+    font-weight: 600;
+    margin-left:130px; 
+    color: #6d6d6d;
+    top:10px;
   }
 
   #bootstrap-overrides .popover-title h3 {
@@ -693,8 +704,20 @@ font-size: 15px;
 }
 
 @media screen and (max-width: 500px) {
-#bootstrap-overrides #flogo2 {
-  display:none;
+#bootstrap-overrides #flogo3 {
+  height: 48px;
+}
+
+#bootstrap-overrides h2 {
+    font-size: 13px;
+  font-family: Raleway;
+  margin-left: 108px;
+}
+
+#bootstrap-overrides h3 {
+  font-size: 10px;
+  font-family: proxima-nova;
+  margin-left: 108px;
 }
 
 #bootstrap-overrides #sm{
